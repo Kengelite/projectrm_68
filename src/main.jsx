@@ -5,6 +5,7 @@ import App from "./App.jsx";
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 
+import Index from "./index.jsx";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -24,9 +25,7 @@ const router = createBrowserRouter([
     path: "/index",
     element: (
       <>
-        <App />
-        <App />
-         <App />
+        <Index />
       </>
     ),
   },
