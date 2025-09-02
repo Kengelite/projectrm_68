@@ -20,6 +20,16 @@ const router = createBrowserRouter([
       </>
     ),
   },
+  {
+    path: "/index",
+    element: (
+      <>
+        <App />
+        <App />
+         <App />
+      </>
+    ),
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
